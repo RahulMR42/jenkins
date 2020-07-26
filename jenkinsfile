@@ -1,0 +1,14 @@
+pipeline{
+  stages{
+    stage("One"){
+      steps{
+        echo "hi"
+      }
+    }
+    stage("Two"){
+      steps{
+        echo "two"
+      }
+    }
+  }
+}
